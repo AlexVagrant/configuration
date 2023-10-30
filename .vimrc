@@ -5,6 +5,12 @@ set expandtab
 set ai
 set number
 set hlsearch
-set ruler
-highlight Comment ctermfg=green
+set ruler 
+set noswapfile
+set nocompatible
+set backspace=2
 
+highlight Comment ctermfg=green
+inoremap jj <ESC>
+
+autocmd FileType vue syntax sync fromstart
