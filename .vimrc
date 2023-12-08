@@ -9,6 +9,8 @@ set ruler
 set noswapfile
 set nocompatible
 set backspace=2
+#redrawtime exceeded syntax highlighting disabled #786 
+set re=0]
 
 highlight Comment ctermfg=green
 inoremap jj <ESC>
