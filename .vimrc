@@ -9,12 +9,12 @@ set ruler
 set noswapfile
 set nocompatible
 set backspace=2
-#redrawtime exceeded syntax highlighting disabled #786 
+"redrawtime exceeded syntax highlighting disabled #786 
 set re=0
 
 highlight Comment ctermfg=green
 
-#health
+"health
 nnoremap <space>b :buffers<cr>:b<space>
 nnoremap <space>e :b#<cr>
 nnoremap <space>w :w<cr>
