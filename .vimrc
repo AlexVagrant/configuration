@@ -11,6 +11,7 @@ set nocompatible
 set backspace=2
 "redrawtime exceeded syntax highlighting disabled #786 
 set re=0
+set backspace=2
 
 highlight Comment ctermfg=green
 
