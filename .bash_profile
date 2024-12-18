@@ -7,6 +7,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-if [ -f ~/.bash_profile ]; then
-  source ~/.bash_profile
-if
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+fi
