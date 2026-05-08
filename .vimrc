@@ -13,6 +13,10 @@ set backspace=2
 set re=0
 set backspace=2
 
+"vim grep global search config with ripgrep. ripgrep fast than grep
+#set grepprg=rg\ --vimgrep\ --smart-case
+#set grepformat=%f:%l:%c:%m
+
 highlight Comment ctermfg=green
 
 "health
